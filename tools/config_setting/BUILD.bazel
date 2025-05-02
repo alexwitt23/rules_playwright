@@ -42,11 +42,6 @@ config_setting(
 )
 
 [
-    
-    for version in MACOS_VERSIONS
-]
-
-[
     config_setting(
         name = distro,
         values = {
