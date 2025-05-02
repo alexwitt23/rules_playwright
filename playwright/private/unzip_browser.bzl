@@ -37,7 +37,7 @@ unzip_browser = rule(
         ),
         "output_dir": attr.string(mandatory = True),
         "_cli": attr.label(
-            default = "//tools/release:unzip_browser.sh"",
+            default = "//tools/release:unzip_browser.sh",
             allow_single_file = True,
             executable = True,
             cfg = "exec",
